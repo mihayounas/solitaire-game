@@ -249,12 +249,12 @@ body {
 
 .board.dark .nav-buttons button {
     background-color: #0f0c0c;
-    color: #5df8f8;
+    color: #999999;
 }
 
 .board.dark .cd.s,
 .board.dark .cd.c {
-    color: #5df8f8;
+    color: #999999;
     background-color: #181818;
     background-image: linear-gradient(to bottom, #272727, #373737);
     border-color: #414141;
@@ -262,20 +262,20 @@ body {
 
 .board.dark .cd.h,
 .board.dark .cd.d {
-    color: #ee55e1;
-    background-color: #e4dfdf;;
+    color: #ee5555;
+    background-color: #640000;
     background-image: linear-gradient(to bottom, #580000, #741212);
-    border-color: #640000;
+    border-color: #740808;
 }
 
 /* light */
 .board.light {
     background-image: linear-gradient(to top, #ce9d9d, #e9e3e3);
-    color: #0b0b0b;
+    color: #4b0707;
 }
 
 .board.light .cd.f {
-    background-color: #5df8f8;
+    background-color: #999999;
     border-color: #e9dbdb;
     background-image: repeating-linear-gradient(55deg, transparent, transparent 18px, #ffffff 19px, transparent 20px), repeating-linear-gradient(-55deg, transparent, transparent 18px, #cccccc 19px, transparent 20px), linear-gradient(to bottom, #d3c2c2, #f0e4e4);
 }
